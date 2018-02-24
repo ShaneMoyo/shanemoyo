@@ -1,0 +1,11 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+@import "../../node_modules/animate.css/animate.min.css";
+
+$primary: #e2e7d3;
+$danger:  #a7a991;
+$warning: #cdc2b0;
+$success: #f36a46;
+$info: #ffb288;
+
+@import "../../node_modules/bulma/bulma";

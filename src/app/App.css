@@ -1,0 +1,66 @@
+html,body {
+  font-family: 'Lato', 'Roboto';
+}
+
+h1 {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 46px;
+  margin: 0 0 43px 0;
+  }
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 23px 0;
+  }
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  }
+
+
+.button.centered {
+  display: table;
+  margin: 0 auto;
+}
+
+.hero.is-info {
+  background: linear-gradient(
+      rgba(243,106,70,0.9),
+      rgba(167,169,145,0.3)
+    ), url('https://images.unsplash.com/37/ic1dX3kBQjGNaPQb8Xel_1920%20x%201280.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4e7996e10ac79595f367a8e21765031&auto=format&fit=crop&w=1504&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero, .hero.is-success {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+.hero-head{
+  position: fixed !important; top: 0; left: 0; right: 0; z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar{
+ 
+  border-width: 0px 0px 1px 0px;
+  
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-menu{
+  background-color: rgba(255, 255, 255, 0);
+}
