@@ -33,8 +33,6 @@ class Promo extends Component {
             <p class="animated fadeIn is-6 title">
             Full-Stack Advanced Javascript
             </p>
-            
-            
           </div>
         </div>
       </section>

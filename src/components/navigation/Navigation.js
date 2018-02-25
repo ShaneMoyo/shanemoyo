@@ -49,7 +49,7 @@ class Navigation extends Component {
             </a>
 
             <a class="navbar-item is-transparent">
-              <NavBarLink exact to="/drawings" onClick={() => this.onClickNav()}><span class="tag is-medium has-text-white is-warning">Artwork</span></NavBarLink>
+              <NavBarLink exact to="/artwork" onClick={() => this.onClickNav()}><span class="tag is-medium has-text-white is-warning">Artwork</span></NavBarLink>
             </a>
 
             <a class="navbar-item is-transparent">
